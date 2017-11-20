@@ -26,6 +26,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 .hero-left-content{
   width: 70%;
@@ -33,7 +34,7 @@ h3 {
   text-align: center;
 }
 .name{
-  margin-top:-37px;font-size: 40px;
+  margin-top:-37px;font-size: 50px;
   text-align: center;
   color: #444141;
 }
@@ -50,8 +51,8 @@ h3 {
 }
 
 .profile-pic{
-  height:200px;
-  width:200px;
+  height:350px;
+  width:350px;
   margin:0 auto;
   border-radius: 50%;
   background: url('../img/sachin.jpg');
@@ -59,7 +60,7 @@ h3 {
 }
 .hero-right{
   width: 50vw;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 .hero-right-content {
     width: 100%;
@@ -185,16 +186,44 @@ footer{
   background: blue;
   border-radius: 50%;
   color: white;
-  height: 30px;
-  width: 30px;
-  line-height: 30px!important;
+  height: 50px;
+  width: 50px;
+  line-height: 50px!important;
 }
 .hobbies{
   display: flex;
   flex-wrap: wrap;
 }
 .hobbies .fa{
-    font-size: 90px;
+    font-size: 60px;
     margin: 40px;
     color: #527d52;
+}
+
+.Skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Skills .fa {
+    font-size: 60px;
+    margin: 40px;
+    color: #527d52;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #29952a;
+    color: white;
 }
